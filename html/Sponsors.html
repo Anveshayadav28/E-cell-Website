@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OUR SPONSORS</title>
+    <link rel="shortcut icon" type="image/png" href="/assets/imgs/ecell-logo.png">
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/team.css">
+    <!-- <link rel="stylesheet" href="./styles/index.css"> -->
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/page.css">
+    <link rel="stylesheet" href="/styles/fonts.css">
+    <!-- Libraries that are common across all pages -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111097251-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-111097251-1');
+    </script>
+
+
+    <!--Bootstrap: according to official website, these are cached -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+</head>
+
+<body>
+    <!--Adapted from: https://mycyberuniverse.com/jekyll-bootstrap-dynamic-navigation-highlighting-active-element.html-->
+    <!--
+⢀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⣠⣤⣶⣶
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⢰⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣀⣀⣾⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⡏⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿
+⣿⣿⣿⣿⣿⣿⠀⠀⠀⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠉⠁⠀⣿
+⣿⣿⣿⣿⣿⣿⣧⡀⠀⠀⠀⠀⠙⠿⠿⠿⠻⠿⠿⠟⠿⠛⠉⠀⠀⠀⠀⠀⣸⣿
+⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣴⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⢰⣹⡆⠀⠀⠀⠀⠀⠀⣭⣷⠀⠀⠀⠸⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠈⠉⠀⠀⠤⠄⠀⠀⠀⠉⠁⠀⠀⠀⠀⢿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⢾⣿⣷⠀⠀⠀⠀⡠⠤⢄⠀⠀⠀⠠⣿⣿⣷⠀⢸⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⡀⠉⠀⠀⠀⠀⠀⢄⠀⢀⠀⠀⠀⠀⠉⠉⠁⠀⠀⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿
+ -->
+
+
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/styles/make-a-thon.css">
+    <script src="/navbar.js"></script>
+
+
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img src="/assets/imgs/ecell-logo.png" height="57">
+        </a>
+        <button class="navbar-toggler" id="navbar-toggler" type="button" data-toggle="modal" data-target="#sideNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <!-- pull data from the navigation.yml file -->
+                
+                
+                    
+                    
+                    
+                    
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                    
+                
+                    
+                    
+                    
+                    
+                    
+                        <li class="nav-item dropdown ">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Work <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <div class="dropdown-triangle"></div>
+                                <div class="sublinks">
+                                
+                                    
+                                    
+                                        <li>
+                                            <a class="dropdown-item" href="./Saturday.html">SATURDAY ACTIVITIES</a>
+                                        </li>
+                                    
+                                
+                                    
+                                    
+                                        <li>
+                                            <a class="dropdown-item" href="./Talks.html">TALKS AND WORKSHOPS</a>
+                                        </li>
+                                    
+                                
+                                    
+                                    
+                                        <li>
+                                            <a class="dropdown-item" href="./Other.html">OTHER ACTIVITIES</a>
+                                        </li>
+                                    
+                                
+                                    
+                                        <li class="img-list-item">
+                                            <img src="/assets/imgs/dummy.png" alt="this is a picture">
+                                        </li>
+                                    
+                                
+                                </div>
+                            </ul>
+                        </li>
+                    
+                
+                    
+                    
+                    
+                    
+                    
+                        <li class="nav-item dropdown ">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Events <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <div class="dropdown-triangle"></div>
+                                <div class="sublinks">
+                                
+                                    
+                                    
+                                        <li>
+                                            <a class="dropdown-item" href="./AD-MAD.html">AD-MAD SHOW</a>
+                                        </li>
+                                    
+                                
+                                    
+                                    
+                                        <li>
+                                            <a class="dropdown-item" href="./One-Dolllar.html">ONE-DOLLAR VENTURE</a>
+                                        </li>
+                                    
+                                
+                                    
+                                    
+                                        <li>
+                                            <a class="dropdown-item" href="./ideathon.html">IDEATHON</a>
+                                        </li>
+                                    
+                                
+                                    
+                                    
+                                        <li>
+                                            <a class="dropdown-item" href="./make-a-thon.html">MAKE-A-THON</a>
+                                        </li>
+                                    
+                                
+                                    
+                                    
+                                        <li>
+                                            <a class="dropdown-item" href="">DISRUPT</a>
+                                        </li>
+                                    
+                                
+                                    
+                                        <li class="img-list-item">
+                                            <img src="/assets/imgs/participate.png" alt="this is a picture">
+                                        </li>
+                                    
+                                
+                                </div>
+                            </ul>
+                        </li>
+                    
+                
+                    
+                    
+                    
+                    
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./Sponsors.html">Our Sponsors </a>
+                        </li>
+                
+                    
+                    
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./team.html">Our Team </a>
+                        </li>
+                    
+                
+            </ul>
+        </div>
+    </nav>
+    
+
+    <div class="modal fade right" tabindex="-1" role="dialog" id="sideNav">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">ECell SSTC</h5>
+                  <button type="button" id="close-modal" class="close float-right txt-dark" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                  
+                      
+                          
+                              <a class="nav-link nav-link-bold" href="./index.html">Home</a>
+                          
+                  
+                          
+                              <a class="nav-link nav-link-disabled" href="#">Our Work ></a>
+                              
+                                  
+                                      <a class="dropdown-item nav-sublink" href="./Saturday.html">SATURDAY ACTIVITIES</a>
+                                  
+                              
+                                  
+                                      <a class="dropdown-item nav-sublink" href="./Talks.html">TALKS AND WORKSHOPS</a>
+                                  
+                              
+                                  
+                                      <a class="dropdown-item nav-sublink" href="./Other.html">OTHER ACTIVITIES</a>
+                                  
+                              
+                  
+                          
+                              <a class="nav-link nav-link-disabled" href="#">Our Events ></a>
+                              
+                                  
+                                      <a class="dropdown-item nav-sublink" href="./AD-MAD.html">AD-MAD SHOW</a>
+                                  
+                              
+                                  
+                                      <a class="dropdown-item nav-sublink" href="./One-Dolllar.html">ONE-DOLLAR VENTURE</a>
+                                  
+                              
+                                  
+                                      <a class="dropdown-item nav-sublink" href="./ideathon.html">IDEATHON</a>
+                                  
+                              
+                                  
+                                      <a class="dropdown-item nav-sublink" href="./make-a-thon.html">MAKE-A-THON</a>
+                                  
+                              
+                                  
+                                      <a class="dropdown-item nav-sublink" href="">DISRUPT</a>
+                                  
+                              
+                                  
+                              
+                          
+                  
+                          
+                              <a class="nav-link nav-link-bold" href="./Sponsors.html">Our Sponsors</a>
+                          
+                  
+                          
+                              <a class="nav-link nav-link-bold" href="./team.html">Our Team</a>
+                          
+                  
+              </div>
+          </div>
+        </div>
+      </div>  
+
+      <link rel="stylesheet" type="text/css" href="/styles/sponsors.css">
+<header class="w-100 h-75">
+    <div class="container-fluid h-100 main-head">
+        <div class="row h-100">
+            <div class="col text-center d-flex align-items-center justify-content-center">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col text-white">
+                            <h1>Our Associates and Sponsors</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container tiles">
+    <div class="row p-3">
+        <div class="col-md-12">
+            <p>We realise that we need to associate ourselves with great companies to
+                grow and reach more and more people. With this aim in mind, each year we conduct
+                many events which aim at bringing the students closer to the industry so that they
+                come up with their own unique solutions to the problems in each sector. All these
+                events do require a lot of funding to be successful.
+                It is our sponsors who help us in our endeavours not only monetarily but also
+                with their experience. If you would like to sponsor us, reach out to us at
+                <a href="mailto:ecell@sstc.ac.in">ecell@sstc.ac.in</a>
+                We would love to hear back from you.
+            </p>
+        </div>
+    </div>
+</div>
+       
+<div class="container" id="associates">
+    <div class="row">
+        <div class="col p-5 text-center">
+            <h1 class="py-3">Our Sponsers</h1>
+        </div>
+    </div>
+    <div class="row partners">
+        <div class="col-md-3 col-sm-6 my-auto"> 
+            <img class="img-fluid" src="/assets/imgs/augtech logo.jpeg" alt="Augtech">
+            <h5>AUGTECH NEXTWEALTH IT SERVICES PRIVATE LIMITED</h5>
+        </div>
+        <div class="col-md-3 col-sm-6 my-auto">
+            <img class="img-fuild" src="/assets/imgs/incubation sstc.jpg">
+            <h5>INCUBATION SSTC</h5>
+        </div>
+        <div class="col-md-3 col-sm-6 my-auto">
+            <img class="img-fluid" src="/assets/imgs/sensible academy.jpg">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<footer>
+    <div class="curvy-footer">
+        <svg
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 1920 491.84"
+            style="enable-background:new 0 0 1920 491.84;"
+            xml:space="preserve"
+        >
+            <style type="text/css">
+                .st0 {
+                    fill: #d43129;
+                }
+                .st1 {
+                    fill: #1bbfb3;
+                }
+                .st2 {
+                    fill: #002240;
+                }
+            
+            </style>
+            <path
+                id="XMLID_2_"
+                class="st0"
+                d="M-2.87,265.89c0,0,547.06-423.4,980.48-92.82S2163.89-35.94,2163.89-35.94l-1.03,439.53
+			L-5.43,403.86L-2.87,265.89z"
+            />
+            <path
+                id="XMLID_1_"
+                class="st1"
+                d="M0.5,353.87c0,0,547.06-423.4,980.48-92.82S2167.25,52.04,2167.25,52.04l-1.03,439.53
+			L-2.06,491.84L0.5,353.87z"
+            />
+            <path
+                id="XMLID_3_"
+                class="st2"
+                d="M-1.54,463.85c0,0,547.06-423.4,980.48-92.82s1186.27-209.01,1186.27-209.01l-1.03,439.53
+			L-4.1,601.82L-1.54,463.85z"
+            />
+        </svg>
+    </div>
+    <div class="container-fluid bg-blue push-bottom p-5">
+        <div class="container" id="footer-image">
+            <div class="row text-left">
+                <div class="col-12 col-md-3 push-upper text-left">
+                    <img class="img-responsive" src="/assets/imgs/ecell-logo.png" alt="E-Cell Logo" />
+
+                    <p class="mx-auto footer-text">
+                        2025. Entrepreneurship Cell of
+                         SHRI SHANKARACHARYA TECHNICAL CAMPUS BHILAI
+                    </p>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 push-upper">
+                    <h3>About</h3>
+                    <a class="d-block footer-text" href="./team.html">Our Team</a>
+                    <a class="d-block footer-text" href="./Sponsors.html">Our Sponsors</a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-3 push-upper">
+                    <h3>Events</h3>
+                    <a class="d-block footer-text" href="./AD-MAD.html">AD-MAD SHOW</a>
+                    <a class="d-block footer-text" href="./One-Dolllar.html">ONE-DOLLAR VENTURE</a>
+                    <a class="d-block footer-text" href="./ideathon.html">IDEATHON</a>
+                    <a class="d-block footer-text" href="./make-a-thon.html">MAKE-A-THON</a>
+                    <a class="d-block footer-text" href="#">DISRUPT</a>
+                </div>
+
+                <div class="col-12 col-md-3 push-upper">
+                    <h3>Reach Us</h3>
+                    <span class="footer-text">E-Cell, SSTC</span><br>
+                    <span class="footer-text">Junwani,Bhilai</span><br>
+                    <span class="footer-text">Chhatisgarh</span><br>
+                    <a href="tel:+91 9826539550">+91 9826539550</a><br>
+                    <a href="mailto:ecell@sstc.ac.in">ecell@sstc.ac.in</a>
+                </div>
+            </div>
+
+            <div class="row social-links">
+                <div class="col-12 text-center">
+                    <ul class="list-inline pt-3">
+                        <li class="list-inline-item p-2"><a href="https://www.facebook.com/share/jakjR29kpkC1qwPk/?mibextid=qi2Omg"><h1><i class="fab fa-facebook"></i></h1></a></li>
+                        <li class="list-inline-item p-2"><a href="https://www.instagram.com/ecell_sstc?igsh=eGdhMnF5OGRiZW9u"><h1><i class="fab fa-instagram"></i></h1></a></li>
+                        <li class="list-inline-item p-2"><a href="http://www.youtube.com/@ecellsstc" ><h1><i class="fab fa-youtube"></i></h1></a></li>
+                        <li class="list-inline-item p-2"><a href="https://www.linkedin.com/company/e-cell-sstc/" ><h1><i class="fab fa-linkedin"></i></h1></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="./index.js"></script>
+</body>
+</html>

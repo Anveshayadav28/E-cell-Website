@@ -1,0 +1,105 @@
+:root {
+    --fb-col: linear-gradient(
+        to bottom,
+        #18affe,
+        #139ff7,
+        #1197f6,
+        #0b86ed,
+        #0476e6,
+        #0168e1,
+        #0064e0,
+        #0062e1,
+        #075cd9
+    );
+    --insta-col: linear-gradient(
+        to bottom left,
+        #405de6,
+        #833ab4,
+        #c13584,
+        #e1306c,
+        #f77737,
+        #fcaf45
+    );
+    --linkedin-col: #0097e6;
+    --yt-col: #ff0000;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.push-upper {
+    padding-top: 10%;
+}
+
+.push-bottom {
+    padding-bottom: 2%;
+}
+
+.bg-blue {
+    background-color: #002240;
+}
+
+.curvy-footer svg {
+    background-position: center;
+    background-size: cover;
+}
+
+footer h3 {
+    color: #fff;
+   
+}
+
+footer a {
+    color: #a7d3ff;
+}
+
+footer a:hover {
+    color: #a7fffd;
+    text-decoration: none;
+}
+
+.fa-facebook:hover {
+    background: var(--fb-col);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-instagram:hover {
+    background: var(--insta-col);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-linkedin:hover{
+   color: var(--linkedin-col);
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: #084880;
+}
+.fa-youtube:hover {
+    color: var(--yt-col);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:#ff0000;
+}
+
+/* almost white color */
+.footer-text {
+    color: rgb(230, 230, 230);
+}
+
+.img-responsive {
+    max-height: 5rem;
+}
+
+/* #footer-image {
+    background: url('https://researchweb.iiit.ac.in/~abhigyan.ghosh/assets/community.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */

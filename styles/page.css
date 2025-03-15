@@ -1,0 +1,22 @@
+.rounded-card {
+    border-radius: 1rem !important;
+}
+
+.card-width {
+    width: 60%;
+    min-width: 500px;
+}
+
+@media (max-width: 768px) {
+    .card-width {
+        width: 95%;
+        min-width: 0;
+    }
+}
+
+.card-push-sides {
+    padding: 2rem;
+}
+.card-header{
+    background-color: red;
+}

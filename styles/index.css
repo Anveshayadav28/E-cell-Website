@@ -1,0 +1,512 @@
+html,
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+.img-fluid {
+	max-width: 110%;
+	height: auto;
+	border-radius: 1rem;
+}
+
+.tiles-container {
+	position: relative;
+	max-width: 1300px;
+}
+
+.tile-row {
+	width: 75%;
+	position: relative;
+	margin: 2rem 10px;
+	border-radius: 2rem;
+	margin-bottom: 4rem;
+}
+
+.row-megathon {
+	background-color: rgb(228, 200, 129);
+}
+
+.row-fail {
+	background-color: rgba(212, 49, 41, 47%);
+}
+
+.row-startup {
+	color: white;
+	background-color: #185a9d;
+	margin-bottom: 6rem;
+}
+
+@media (max-width: 992px) {
+	.tile-row {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.image img {
+		margin: 0;
+	}
+
+	.stats-display {
+		display: none;
+	}
+
+	.container-fluid.tiles-container .row {
+		margin-top: 2rem !important;
+		margin-bottom: 2rem !important;
+	}
+}
+
+.para {
+	max-width: 90vw;
+	box-sizing: border-box;
+	position: relative;
+	border-radius: 10px;
+	z-index: 1;
+	width: 80%;
+}
+
+.image {
+	box-sizing: border-box;
+	z-index: 2;
+	border-radius: 3px;
+	width: 20%;
+	height: 100%;
+	/* this allows for all fancy alignments of the image */
+	position: relative;
+}
+
+.stats-display {
+	position: absolute;
+}
+
+.image-right,
+.para-right,
+.tile-row-right {
+	float: right;
+}
+
+.image-left,
+.para-left {
+	float: left;
+}
+
+.para-head {
+	font-weight: bold;
+	margin-bottom: 1.2rem !important;
+	color: #002142;
+	font-family: 'CustomHeading', sans-serif;
+}
+
+.row-startup .para-head {
+	color: white;
+}
+
+.para-text {
+	text-align: justify;
+	margin-top: 1.2rem !important;
+	margin-bottom: 1.2rem !important;
+}
+
+.cta-btn {
+	padding: 10px 60px;
+	border-radius: 1.5rem;
+	margin-top: 1.2rem !important;
+	color: white;
+}
+
+.cta-btn:hover {
+	color: white;
+}
+
+.row-fail .cta-btn-container {
+	text-align: right;
+}
+
+/* at small device, display text and image full center */
+@media (max-width: 768px) {
+	.para {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.para-head {
+		text-align: center;
+		margin-top: 0 !important;
+	}
+
+	.cta-btn {
+		margin: 1.2rem auto 3rem calc($spacer*3) !important;
+	}
+
+	.image-left,
+	.image-right {
+		float: none;
+	}
+
+	.image {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+
+	.image img {
+		max-width: 100%;
+		border-radius: 1rem;
+	}
+
+	.row.tile-row {
+		padding: 1rem;
+	}
+
+	.para-text {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+
+	.cta-btn-container {
+		text-align: center !important;
+	}
+}
+
+/* Specific positioning */
+.megathon-image {
+	margin-left: 0%;
+	margin-top: -10%;
+}
+
+.stats-display-megathon {
+	right: 0;
+	bottom: -15%;
+	color: #185a9d;
+}
+
+.fail-image {
+	margin-left: -25%;
+	margin-top: -10%;
+}
+
+.stats-display-fail {
+	width: fit-content;
+	left: 3%;
+	bottom: -13%;
+	color: #185a9d;
+}
+
+.startup-image {
+	margin-left: 0%;
+	margin-top: -10%;
+}
+
+.stats-display-startup {
+	width: fit-content;
+	right: 3%;
+	bottom: -13%;
+	color: #185a9d;
+}
+
+.row-megathon {
+	background-color: rgba(40, 205, 193, 0.47);
+}
+
+/* add extra margin due to stats display */
+.row-fail {
+	margin-top: calc(2rem + 4%);
+	margin-bottom: 7rem;
+}
+
+/* Testimonial box */
+
+#testimonial-parent {
+	/* to give space to the stats text above*/
+	margin-top: 8rem;
+
+	/* because the ancestor must be a positioned element for absolute positioning to work */
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.testimonial-container {
+	background-color: white;
+	border: 1px solid rgb(197, 197, 197);
+	border-radius: 2rem;
+	height: inherit;
+	max-width: 750px;
+	margin: 0 auto;
+	padding: 2rem 0;
+	position: absolute;
+	top: 6rem;
+	/* this hack works for horizontal alignment :) */
+	/* https://stackoverflow.com/questions/16758102 */
+	left: 0;
+	right: 0;
+}
+
+@media screen and (max-width: 1200px) {
+	.testimonial-container {
+		position: absolute;
+		top: 3rem;
+	}
+}
+
+@media screen and (max-width: 1150px) {
+	.testimonial-container {
+		position: absolute;
+		top: -3rem;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.testimonial-container {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+	#testimonial-parent {
+		margin: 2rem 0;
+	}
+
+	.image-right,
+	.para-right,
+	.tile-row-right {
+		float: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.testimonial-container {
+		width: 95%;
+	}
+
+	h1 {
+		font-size: 1.5rem;
+	}
+}
+
+.testimonial-container .profilepic {
+	width: 100%;
+	height: 75px;
+	text-align: center;
+}
+
+.testimonial-container .profilepic img {
+	height: 100%;
+}
+
+.testimonial-container .person-info>div,
+.testimonial-container .text {
+	margin: 0 auto;
+	text-align: center;
+	width: fit-content;
+}
+
+.carousel-inner {
+	height: 100%;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.carousel-item {
+	height: 100%;
+	background-color: white;
+}
+
+.person-info {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	filter: invert(1);
+}
+
+.testimonial-container .text {
+	font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+	.testimonial-container .text {
+		font-size: 1.25rem;
+	}
+
+	.carousel-control-prev,
+	.carousel-control-next {
+		top: 85%;
+	}
+
+	.carousel-inner {
+		width: 95%;
+	}
+}
+
+.testimonial-container .person-info .name,
+.testimonial-container .person-info .designation {
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.palette-bg-green {
+	background-color: #1bbfb3;
+}
+
+.palette-bg-green:hover {
+	background-color: #4db6ac;
+}
+
+.txt-green {
+	color: #1bbfb3;
+}
+
+.palette-bg-red {
+	background-color: #d43129;
+}
+
+.palette-bg-red:hover {
+	background-color: #dd5e58;
+}
+
+.palette-bg-blue {
+	background-color: #002240;
+}
+
+.palette-bg-blue:hover {
+	background-color: #084880;
+}
+
+.palette-bg-grey {
+	background-color: #ebebeb;
+}
+
+.contact-us {
+	background: linear-gradient(to right,
+			rgba(255, 255, 255, 0.4),
+			rgba(255, 255, 255, 0.4)),
+		url('/assets/imgs/undraw-world.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-x: calc(100% + 9rem);
+	/* background-position: right; */
+	background-position-y: -9rem;
+	margin-top: 0;
+}
+
+.contact-us .backbox {
+	/* background-color: rgba(16, 138, 149, 0.678); */
+	background-color: rgba(0, 34, 64, 0.637);
+	padding: 2rem;
+	border-radius: 1rem;
+	margin: 0rem auto;
+	/* margin-bottom: 0; */
+	color: white;
+}
+
+.main-head {
+	background-image: url('/assets/imgs/bg5.jpg'); 
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	height: 100%;
+	width: auto;
+	/*animation: zoomBackground 10s infinite;*/
+}
+
+.video-container {
+	position: absolute;
+	display: flex;
+	object-fit: cover;
+	top: 50%;
+	left: 50%;
+	right: 50%;
+	min-height: 100%;
+	min-width: 100%;
+	transform: translate(-50%, -50%);
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+/* video{
+	position: absolute;
+	width: 100%;
+	max-width: none;
+	height: 100vh;
+	z-index: 10;
+  }*/
+
+/* @keyframes zoomBackground {
+	0% {
+		background-size: 100% 100%;
+	  }
+	  50% {
+		background-size: 150% 150%;
+	  }
+	  100% {
+		background-size: 100% 100%;
+	  }
+	}
+*/
+
+
+.ideathon-head {
+	background: url('/assets/imgs/header1.svg');
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+
+	height: 100%;
+	width: auto;
+}
+
+#jump {
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	width: 50px;
+	height: 50px;
+	z-index: 1300;
+
+	background: #d43129;
+	border-radius: 50%;
+
+	transition: all 0.5s ease;
+}
+
+#jump i {
+	position: relative;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.5s ease;
+
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+#jump:hover {
+	background: rgba(212, 49, 41, 47%);
+	text-decoration: none;
+}
+
+#jump i:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.hiddenJumpIcon {
+	height: 0 !important;
+	width: 0 !important;
+	opacity: 0 !important;
+}

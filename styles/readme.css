@@ -1,0 +1,716 @@
+th
+
+uskemai aa rhi 2 min m ruko
+kisme?
+bol na
+arrey mummy bula rhi thi yr thk thik
+ha sun 
+ye jo 6 boxes hai na ....sb ke bich thoda thoda gap rkhna padega
+smjhi
+gap kyu? diagonaly jha mil rhe h vha gap h thodu sa 
+
+aaju baaju ...upar niche waha pr bhi krna padega
+kyu mujhe to ese hi acha lag rha h
+ek baar kr ke dekh
+mai code krunga to output nhi dekh paunga ...isliye andhere me teer nhi chla rha hu main
+theek h karungi usko bhi pehle abhi ideathon ka bhi bna deti hu aur sabka css aur js ek mai krti hu 
+👍👍👍👍
+haanabhi kya ideathon ka likh rhi h kya?
+haan copy paste krungi aur thoda content bs👍👍👍
+hao
+👍👍👍
+ek glti ho gyaaa  
+kya
+vo jo aap bol rhe the na change krne ko usko bina padhe uda di mai boxes ke uppr wala
+ideathon ka? nhi yr kuch kuch change krne bole the na kickstart wagera wala line
+acha one dollar ka?
+haa
+each team kr 
+of you ke jagah ok
+or 
+your ke jagh their ok
+kickstart? abe kickstart ke baad your hai na usko their kr bss
+acha theek h 
+👍👍👍👍👍👍👍
+ab thik :horizontal
+ab ideathon ka kr rhi hai?
+haan 
+
+mai saath hi saath dekhte ja rha hu content
+haan 
+ad-mad or ideathon ak to same hi h na?
+kya?
+problem statement , ekbar ad-mad ka dekh ke aao shi h? vhi chipka rhi same ideathon mai
+be 
+...tu make a thon me ideathon ka kyu likhi hai problem statement?
+
+
+
+
+
+
+
+<header class="w-100 h-75">
+<div class="container-fluid h-100 main-head">
+    <div class="row h-100">
+        <div class="col text-center d-flex align-items-center justify-content-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col text-white">
+                        <h1>Team</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</header>
+
+<div class="container py-5">
+<div class="row">
+    <div class="col text-justify">
+        <h4>
+            "Individual commitment to a group effort - that is what makes a team work, a company work, a society work, a civilization work."
+        </h4>
+    </div>
+</div>
+<div class="row">
+    <div class="col text-right">
+        - Vince Lombardi
+    </div>
+</div>
+</div>
+
+
+
+
+<div class=" algn container" id="overallcoord">
+<hr>
+<h1 class="pb-4 mb-4" style="text-align: center;">Overall Coordinators</h1>
+<h4 class="pb-4 mb-4" style="text-align: center;"></h4>
+<div class="container-fluid mb-4 pb-4">
+
+    <div class="row align-self-center" style="float: centre;">
+        <div class="row col-12 col-md-12 d-flex flex-row text-center justify-content-center align-items-center member">
+
+            <div class="grid my-0 py-0">
+                <figure class="effect-layla">
+                    <img src="/assets/imgs/team/Aachla Mam.jpg">
+                    <figcaption>
+                        <h2>Akshit<br>Gureja</h2>
+
+
+                        <br><br>
+
+
+
+                        <a class="focus" href="mailto:akshit.gureja@research.iiit.ac.in" target="_blank">
+                            <h3><i class="fa fa-envelope"></i></h3>
+                        </a>
+
+                        <a class="focus" href="tel:9041108830" target="_blank">
+                            <h3><i class="fa fa-phone"></i></h3>
+                        </a>
+
+
+                        <a class="focus" href="https://www.linkedin.com/in/akshit-gureja-5b0784207/" target="_blank">
+                            <h3><i class="fab fa-linkedin"></i></h3>
+                        </a>
+
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="grid my-0 py-0">
+                <figure class="effect-layla">
+                    <img src="/assets/imgs/team/Aachla Mam.jpg">
+                    <figcaption>
+                        <h2>Amey<br>Choudhary</h2>
+
+
+                        <br><br>
+
+
+
+                        <a class="focus" href="mailto:amey.choudhary@research.iiit.ac.in" target="_blank">
+                            <h3><i class="fa fa-envelope"></i></h3>
+                        </a>
+
+                        <a class="focus" href="tel:7649870334" target="_blank">
+                            <h3><i class="fa fa-phone"></i></h3>
+                        </a>
+
+
+                        <a class="focus" href="https://www.linkedin.com/in/amey-choudhary-a187a3236/" target="_blank">
+                            <h3><i class="fab fa-linkedin"></i></h3>
+                        </a>
+
+                    </figcaption>
+                </figure>
+            </div>
+
+        </div>
+        <br>
+    </div>
+
+    <div class=" algn container" id="Content Writing">
+    <hr>
+    <h1 class="pb-4 mb-4" style="text-align: center;">Content Writing</h1>
+    <h4 class="pb-4 mb-4" style="text-align: center;">It's better to hang out with people better than you. Pick out associates whose behaviour is better than yours and you'll drift in that direction <br> - Warren Buffet</h4>
+    <div class="container-fluid mb-4 pb-4">
+
+        <div class="row align-self-center" style="float: centre;">
+            <div class="row col-12 col-md-12 d-flex flex-row text-center justify-content-center align-items-center member">
+
+                <div class="grid my-0 py-0">
+                    <figure class="effect-layla">
+                        <img src="/assets/imgs/team/Aachla Mam.jpg">
+                        <figcaption>
+                            <h2>Poorvi<br>H&ensp;C</h2>
+
+
+                            <p><strong>Team Head</strong></p>
+
+
+
+                            <a class="focus" href="mailto:poorvi.c@research.iiit.ac.in" target="_blank">
+                                <h3><i class="fa fa-envelope"></i></h3>
+                            </a>
+
+
+                            <a class="focus" href="https://www.linkedin.com/mwlite/in/poorvi-hc-64a313225" target="_blank">
+                                <h3><i class="fab fa-linkedin"></i></h3>
+                            </a>
+
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+            <br>
+        </div>
+
+        <div class="row align-self-center" style="float: centre;">
+            <div class="row col-12 col-md-12 d-flex flex-row text-center justify-content-center align-items-center member ">
+
+                <div class="grid my-0 py-0">
+                    <figure class="effect-layla">
+                        <img src="/assets/imgs/team/Aachla Mam.jpg">
+                        <figcaption>
+                            <h2>Shivam<br>Tiwari</h2>
+                            <p><strong>Team Member</strong></p>
+                            <a class="focus" href="mailto:shivam.tiwari@students.iiit.ac.in" target="_blank">
+                                <h3><i class="fa fa-envelope"></i></h3>
+                            </a>
+
+
+                            <a class="focus" href="https://www.linkedin.com/in/shivam-tiwari-05236024a" target="_blank">
+                                <h3><i class="fab fa-linkedin"></i></h3>
+                            </a>
+
+                        </figcaption>
+                    </figure>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class=" algn container" id="Tech">
+    <hr>
+    <h1 class="pb-4 mb-4" style="text-align: center;">Tech</h1>
+    <h4 class="pb-4 mb-4" style="text-align: center;">We turn Coffee to Code!</h4>
+    <div class="container-fluid mb-4 pb-4">
+
+        <div class="row align-self-center" style="float: centre;">
+            <div class="row col-12 col-md-12 d-flex flex-row text-center justify-content-center align-items-center member">
+
+                <div class="grid my-0 py-0">
+                    <figure class="effect-layla">
+                        <img src="/assets/imgs/team/Aachla Mam.jpg">
+                        <figcaption>
+                            <h2>Shrikara <br>A</h2>
+
+
+                            <p><strong>Team Head</strong></p>
+
+
+
+                            <a class="focus" href="mailto:shrikara.a@students.iiit.ac.in" target="_blank">
+                                <h3><i class="fa fa-envelope"></i></h3>
+                            </a>
+
+
+                            <a class="focus" href="https://linkedin.com/in/shrikara-a-196013168" target="_blank">
+                                <h3><i class="fab fa-linkedin"></i></h3>
+                            </a>
+
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="grid my-0 py-0">
+                    <figure class="effect-layla">
+                        <img src="/assets/imgs/team/Aachla Mam.jpg">
+                        <figcaption>
+                            <h2>Vineeth <br> Bhat</h2>
+
+
+                            <p><strong>Team Head</strong></p>
+
+
+
+                            <a class="focus" href="mailto:vineeth.bhat@students.iiit.ac.in" target="_blank">
+                                <h3><i class="fa fa-envelope"></i></h3>
+                            </a>
+
+
+                            <a class="focus" href="https://www.linkedin.com/in/vineethbhat/" target="_blank">
+                                <h3><i class="fab fa-linkedin"></i></h3>
+                            </a>
+
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+            <br>
+        </div>
+
+        <div class="row align-self-center" style="float: centre;">
+            <div class="row col-12 col-md-12 d-flex flex-row text-center justify-content-center align-items-center member ">
+
+                <div class="grid my-0 py-0">
+                    <figure class="effect-layla">
+                        <img src="/assets/imgs/team/Aachla Mam.jpg">
+                        <figcaption>
+                            <h2>Monish<br>Singhal</h2>
+                            <p><strong>Team Member</strong></p>
+                            <a class="focus" href="mailto:monish.singhal@research.iiit.ac.in" target="_blank">
+                                <h3><i class="fa fa-envelope"></i></h3>
+                            </a>
+
+
+                        </figcaption>
+                    </figure>
+                </div>
+
+
+                <div class="grid my-0 py-0">
+                    <figure class="effect-layla">
+                        <img src="/assets/imgs/team/Aachla Mam.jpg">
+                        <figcaption>
+                            <h2>Amey<br>Karan</h2>
+                            <p><strong>Team Member</strong></p>
+                            <a class="focus" href="mailto:amey.karan@research.iiit.ac.in" target="_blank">
+                                <h3><i class="fa fa-envelope"></i></h3>
+                            </a>
+
+
+                            <a class="focus" href="https://www.linkedin.com/in/ameykaran/" target="_blank">
+                                <h3><i class="fab fa-linkedin"></i></h3>
+                            </a>
+
+                        </figcaption>
+                    </figure>
+                </div>
+
+
+                <div class="grid my-0 py-0">
+                    <figure class="effect-layla">
+                        <img src="/assets/imgs/team/Aachla Mam.jpg">
+                        <figcaption>
+                            <h2>Hemanth<br>Kumar&ensp; Reddy</h2>
+                            <p><strong>Team Member</strong></p>
+                            <a class="focus" href="mailto:hemanth.sunkireddy@students.iiit.ac.in" target="_blank">
+                                <h3><i class="fa fa-envelope"></i></h3>
+                            </a>
+
+
+                        </figcaption>
+                    </figure>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class=" algn container" id="Finance">
+        <hr>
+        <h1 class="pb-4 mb-4" style="text-align: center;">Finance</h1>
+        <h4 class="pb-4 mb-4" style="text-align: center;">Rule No.1: Never lose money.<br> Rule No.2: Never forget rule No.1. <br> - Warren Buffet</h4>
+        <div class="container-fluid mb-4 pb-4">
+
+            <div class="row align-self-center" style="float: centre;">
+                <div class="row col-12 col-md-12 d-flex flex-row text-center justify-content-center align-items-center member">
+
+                    <div class="grid my-0 py-0">
+                        <figure class="effect-layla">
+                            <img src="/assets/imgs/team/Aachla Mam.jpg">
+                            <figcaption>
+                                <h2>Rhythm<br>Aggarwal</h2>
+
+
+                                <p><strong>Team Head</strong></p>
+
+
+
+                                <a class="focus" href="mailto:rhythm.aggarwal@students.iiit.ac.in" target="_blank">
+                                    <h3><i class="fa fa-envelope"></i></h3>
+                                </a>
+
+
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+                <br>
+            </div>
+
+            <div class="row align-self-center" style="float: centre;">
+                <div class="row col-12 col-md-12 d-flex flex-row text-center justify-content-center align-items-center member ">
+
+                    <div class="grid my-0 py-0">
+                        <figure class="effect-layla">
+                            <img src="/assets/imgs/team/Aachla Mam.jpg">
+                            <figcaption>
+                                <h2>Harsh Gupta</h2>
+                                <p><strong>Team Member</strong></p>
+                                <a class="focus" href="mailto:harsh.g@students.iiit.ac.in" target="_blank">
+                                    <h3><i class="fa fa-envelope"></i></h3>
+                                </a>
+
+
+                                <a class="focus" href="https://www.linkedin.com/in/harsh-gupta-4ba4a7254" target="_blank">
+                                    <h3><i class="fab fa-linkedin"></i></h3>
+                                </a>
+
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                    <div class="grid my-0 py-0">
+                        <figure class="effect-layla">
+                            <img src="/assets/imgs/team/Aachla Mam.jpg">
+                            <figcaption>
+                                <h2>Nitin Avuthu</h2>
+                                <p><strong>Team Member</strong></p>
+                                <a class="focus" href="mailto:nitin.avuthu@research.iiit.ac.in" target="_blank">
+                                    <h3><i class="fa fa-envelope"></i></h3>
+                                </a>
+
+
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class=" algn container" id="Design">
+        <hr>
+        <h1 class="pb-4 mb-4" style="text-align: center;">Design</h1>
+        <h4 class="pb-4 mb-4" style="text-align: center;">Design is not just what it looks like and feels like. Design is how it works. <br> - Steve Jobs</h4>
+        <div class="container-fluid mb-4 pb-4">
+
+            <div class="row align-self-center" style="float: centre;">
+                <div class="row col-12 col-md-12 d-flex flex-row text-center justify-content-center align-items-center member">
+
+                    <div class="grid my-0 py-0">
+                        <figure class="effect-layla">
+                            <img src="/assets/imgs/team/Aachla Mam.jpg">
+                            <figcaption>
+                                <h2>Gnaneswar<br>Kulindala</h2>
+
+
+                                <p><strong>Team Head</strong></p>
+
+
+
+                                <a class="focus" href="mailto:gnaneswar.kulindala@research.iiit.ac.in" target="_blank">
+                                    <h3><i class="fa fa-envelope"></i></h3>
+                                </a>
+
+
+                                <a class="focus" href="https://www.linkedin.com/in/gnaneswar-kulindala-6663a8240" target="_blank">
+                                    <h3><i class="fab fa-linkedin"></i></h3>
+                                </a>
+
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+                <br>
+            </div>
+
+            <div class="row align-self-center" style="float: centre;">
+                <div class="row col-12 col-md-12 d-flex flex-row text-center justify-content-center align-items-center member ">
+
+                    <div class="grid my-0 py-0">
+                        <figure class="effect-layla">
+                            <img src="/assets/imgs/team/Aachla Mam.jpg">
+                            <figcaption>
+                                <h2>Arpit<br>Pathak</h2>
+                                <p><strong>Team Member</strong></p>
+                                <a class="focus" href="mailto:arpit.pathak@students.iiit.ac.in" target="_blank">
+                                    <h3><i class="fa fa-envelope"></i></h3>
+                                </a>
+
+
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                    <div class="grid my-0 py-0">
+                        <figure class="effect-layla">
+                            <img src="/assets/imgs/team/Aachla Mam.jpg">
+                            <figcaption>
+                                <h2>Akshat<br>Shah</h2>
+                                <p><strong>Team Member</strong></p>
+                                <a class="focus" href="mailto:akshat.shah@research.iiit.ac.in" target="_blank">
+                                    <h3><i class="fa fa-envelope"></i></h3>
+                                </a>
+
+
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                    <div class="grid my-0 py-0">
+                        <figure class="effect-layla">
+                            <img src="/assets/imgs/team/Aachla Mam.jpg">
+                            <figcaption>
+                                <h2>Ashna<br>Dua</h2>
+                                <p><strong>Team Member</strong></p>
+                                <a class="focus" href="mailto:ashna.dua@students.iiit.ac.in" target="_blank">
+                                    <h3><i class="fa fa-envelope"></i></h3>
+                                </a>
+
+
+                                <a class="focus" href="https://www.linkedin.com/in/ashnadua/" target="_blank">
+                                    <h3><i class="fab fa-linkedin"></i></h3>
+                                </a>
+
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class=" algn container" id="Marketing">
+        <hr>
+        <h1 class="pb-4 mb-4" style="text-align: center;">Marketing</h1>
+        <h4 class="pb-4 mb-4" style="text-align: center;">Good marketing makes the company look smart, great marketing makes the customer feel smart. <br> - Joe Chernov</h4>
+        <div class="container-fluid mb-4 pb-4">
+
+            <div class="row align-self-center" style="float: centre;">
+                <div class="row col-12 col-md-12 d-flex flex-row text-center justify-content-center align-items-center member">
+
+                    <div class="grid my-0 py-0">
+                        <figure class="effect-layla">
+                            <img src="/assets/imgs/team/Aachla Mam.jpg">
+                            <figcaption>
+                                <h2>Vrinda <br> Agarwal</h2>
+
+
+                                <p><strong>Team Head</strong></p>
+
+
+
+                                <a class="focus" href="mailto:vrinda.agarwal@students.iiit.ac.in" target="_blank">
+                                    <h3><i class="fa fa-envelope"></i></h3>
+                                </a>
+
+
+                                <a class="focus" href="https://www.linkedin.com/in/vrinda-agarwal-94608b248/" target="_blank">
+                                    <h3><i class="fab fa-linkedin"></i></h3>
+                                </a>
+
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+                <br>
+            </div>
+
+            <div class="row align-self-center" style="float: centre;">
+                <div class="row col-12 col-md-12 d-flex flex-row text-center justify-content-center align-items-center member ">
+
+                    <div class="grid my-0 py-0">
+                        <figure class="effect-layla">
+                            <img src="/assets/imgs/team/Aachla Mam.jpg">
+                            <figcaption>
+                                <h2>Prithvi <br> Karthik</h2>
+                                <p><strong>Team Member</strong></p>
+                                <a class="focus" href="mailto:prithvi.karthik@students.iiit.ac.in" target="_blank">
+                                    <h3><i class="fa fa-envelope"></i></h3>
+                                </a>
+
+
+                                <a class="focus" href="https://www.linkedin.com/in/prithvikarthik/" target="_blank">
+                                    <h3><i class="fab fa-linkedin"></i></h3>
+                                </a>
+
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                    <div class="grid my-0 py-0">
+                        <figure class="effect-layla">
+                            <img src="/assets/imgs/team/Aachla Mam.jpg">
+                            <figcaption>
+                                <h2>Soumil <br> Gupta</h2>
+                                <p><strong>Team Member</strong></p>
+                                <a class="focus" href="mailto:soumil.gupta@students.iiit.ac.in" target="_blank">
+                                    <h3><i class="fa fa-envelope"></i></h3>
+                                </a>
+
+
+                                <a class="focus" href="https://www.linkedin.com/in/soumilgupta21/" target="_blank">
+                                    <h3><i class="fab fa-linkedin"></i></h3>
+                                </a>
+
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                    <div class="grid my-0 py-0">
+                        <figure class="effect-layla">
+                            <img src="/assets/imgs/team/Aachla Mam.jpg">
+                            <figcaption>
+                                <h2>Asrith<br> Reddy <br> Patlolla</h2>
+                                <p><strong>Team Member</strong></p>
+                                <a class="focus" href="mailto:asrith.reddy@students.iiit.ac.in" target="_blank">
+                                    <h3><i class="fa fa-envelope"></i></h3>
+                                </a>
+
+
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                    <div class="grid my-0 py-0">
+                        <figure class="effect-layla">
+                            <img src="/assets/imgs/team/Aachla Mam.jpg">
+                            <figcaption>
+                                <h2>Zainab<br> Raza</h2>
+                                <p><strong>Team Member</strong></p>
+                                <a class="focus" href="mailto:zainab.raza@students.iiit.ac.in" target="_blank">
+                                    <h3><i class="fa fa-envelope"></i></h3>
+                                </a>
+
+
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class=" algn container" id="Team Affairs and Collaborations">
+        <hr>
+        <h1 class="pb-4 mb-4" style="text-align: center;">Team Affairs and Collaborations</h1>
+        <h4 class="pb-4 mb-4" style="text-align: center;">Coming together is a beginning. Keeping together is progress. Working together is success. <br>- Henry Ford</h4>
+        <div class="container-fluid mb-4 pb-4">
+
+            <div class="row align-self-center" style="float: centre;">
+                <div class="row col-12 col-md-12 d-flex flex-row text-center justify-content-center align-items-center member">
+
+                    <div class="grid my-0 py-0">
+                        <figure class="effect-layla">
+                            <img src="/assets/imgs/team/Aachla Mam.jpg">
+                            <figcaption>
+                                <h2>Sidhi<br>Sankalp<br>Panda</h2>
+
+
+                                <p><strong>Team Head</strong></p>
+
+
+
+                                <a class="focus" href="mailto:sidhi.panda@research.iiit.ac.in" target="_blank">
+                                    <h3><i class="fa fa-envelope"></i></h3>
+                                </a>
+
+
+                                <a class="focus" href="https://www.linkedin.com/in/sidhi-sankalp-panda-2b796120a/" target="_blank">
+                                    <h3><i class="fab fa-linkedin"></i></h3>
+                                </a>
+
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+                <br>
+            </div>
+
+            <div class="row align-self-center" style="float: centre;">
+                <div class="row col-12 col-md-12 d-flex flex-row text-center justify-content-center align-items-center member ">
+
+                    <div class="grid my-0 py-0">
+                        <figure class="effect-layla">
+                            <img src="/assets/imgs/team/Aachla Mam.jpg">
+                            <figcaption>
+                                <h2>Chinmay<br>Pateria</h2>
+                                <p><strong>Team Member</strong></p>
+                                <a class="focus" href="mailto:chinmay.pateria@research.iiit.ac.in" target="_blank">
+                                    <h3><i class="fa fa-envelope"></i></h3>
+                                </a>
+
+
+                                <a class="focus" href="https://www.linkedin.com/in/chinmay-pateria-0718b8220" target="_blank">
+                                    <h3><i class="fab fa-linkedin"></i></h3>
+                                </a>
+
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
